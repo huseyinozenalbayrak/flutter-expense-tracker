@@ -29,6 +29,11 @@ void main() {
             color: kColorScheme.onSecondaryContainer,
             fontSize: 22,
           ),
+          titleMedium: TextStyle(
+            fontSize: 16,
+            fontWeight: FontWeight.w600,
+            color: kColorScheme.onSecondaryContainer,
+          ),
         ),
       ),
       home: const Expenses(),
